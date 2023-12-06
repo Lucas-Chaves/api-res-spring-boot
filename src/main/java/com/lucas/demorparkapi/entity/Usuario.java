@@ -39,7 +39,7 @@ public class Usuario implements Serializable {
 
         public final String label;
 
-        private Role(String label){
+        Role(String label){
             this.label = label;
         }
     }

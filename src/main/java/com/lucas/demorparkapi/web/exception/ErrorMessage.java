@@ -16,11 +16,11 @@ import java.util.Map;
 @ToString
 public class ErrorMessage {
 
-    private String path;
-    private String method;
-    private  int status;
-    private String statusText;
-    private String message;
+    private final String path;
+    private final String method;
+    private final int status;
+    private final String statusText;
+    private final String message;
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private Map<String,String> errors;
 

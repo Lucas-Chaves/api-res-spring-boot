@@ -15,7 +15,7 @@ public class UsuarioMapper {
     }
 
     public static UsuarioResponseDto toDto(Usuario usuario){
-        PropertyMap<Usuario, UsuarioResponseDto> props = new PropertyMap<Usuario, UsuarioResponseDto>() {
+        PropertyMap<Usuario, UsuarioResponseDto> props = new PropertyMap<>() {
             @Override
             protected void configure() {
                 String myRole = usuario.getRole().label;
