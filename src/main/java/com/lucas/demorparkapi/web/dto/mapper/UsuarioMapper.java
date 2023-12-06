@@ -6,10 +6,7 @@ import com.lucas.demorparkapi.web.dto.UsuarioResponseDto;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.PropertyMap;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class UsuarioMapper {
 
